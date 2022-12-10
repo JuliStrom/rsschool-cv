@@ -17,7 +17,7 @@ I'm a very sensitive person with a keen sense of justice. I hate lies, cenism, c
   I took an introductory course in Javascript on Hexlet.
 I'm taking a Front-End Developer course on the Codesland website.
 
-I don't have any experience in IT.
+I don't have any experience in IT, but I can bake homemade bread and knit and crochet.
 
 ### *Education:* 
  1. From 2002 - 2007 I studied at the Belarusian State Technological University. She graduated from the Department of Chemical Technology and Engineering with a degree in Automation Engineer.
