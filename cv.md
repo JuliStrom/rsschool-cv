@@ -37,4 +37,4 @@ I don't have any experience in IT.
 https://github.com/JuliStrom/rsschool-cv/blob/gh-pages/cv.md
 ### *Language:*
 - English level A2. I know a lot of rules, I understand the written text, I also understand clear speech, problems with communication and expressing my thoughts in English.
-- Russian - native language.
+- Russian and Belarusian - native language.
