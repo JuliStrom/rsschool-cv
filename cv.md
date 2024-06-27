@@ -22,7 +22,7 @@ I don't have any experience in IT.
 ### *Education:* 
  1. From 2002 - 2007 I studied at the Belarusian State Technological University. She graduated from the Department of Chemical Technology and Engineering with a degree in Automation Engineer.
 2. After graduation, I worked at CJSC "Krinitsa" as an adjuster of instrumentation and automation equipment until 2010.
-3. Since 2011, I has been working at the JSC "Moscow Brewing Company" as an I&C engineer. I'm still working, but I'm currently on maternity leave.
+3. Since 2011, I has been working at the JSC "Moscow Brewing Company" as an I&C engineer. In 2023 I quit my job.
 
 
 
