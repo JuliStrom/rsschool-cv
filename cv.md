@@ -1,7 +1,7 @@
 ___________________________________________________________________________
 |<font color=#2E8B57 size= 84 face = "black body">***Julia Strom***</font> 
 ______________________________________________________
-![foto for cv](/fotocv.jpg) 
+![foto for cv](assets/img/fotocv.jpg) 
 _______________________________________________________
 ###*Contacts:*
 email: jstrom312@gmail.com 
