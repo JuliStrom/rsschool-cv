@@ -1,10 +1,121 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    <style>
+        body {
+         background: #c7b39b url(assets/img/fon.jpg);
+         background-size: cover;
+         color: hsl(0, 54%, 7%);
+        }
+       </style>
 </head>
 <body>
-<h1>Это заголовок</h1>
-<p>Это параграф</p>
+    <header class="header">
+           
+        <div class="container"></div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                
+                <li class="nav-item"><a href="#summary" class="nav-link">Summmary</a> </li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a> </li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a> </li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a> </li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a> </li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a> </li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container">
+        <section class="section" id="profile">
+            <img src="assets/img/fotocv.jpg" alt="fotocv" class="fotocv">
+             <h1 class="name">Strom Julia</h1>
+             
+        </section>
+        <section class="section" id="contacts">
+            <h3 class="section-title">Contacts</h3>
+            <ul>
+                <li>Minsk, Belarus</li>
+                <li>email: jstrom312@gmail.com</li>
+                <li>+375(29)172-76-**</li>
+                <li>Discord: Strom(@JuliStrom)</li>
+            </ul>
+        </section>
+        <section class="section" id="summary">
+            <h3 class="section-title">Summary</h3>
+            <p>I'm a very sensitive person with a keen sense of justice. 
+                I hate lies, cenism, cruelty and double standards. Always open to new and unknown. 
+                I want to try to do a lot, but there is so little time in the day.
+                 I have always been fascinated by the world of programming, where
+                 I want to immerse myself with the help of your courses.</p>
+        </section>
+        <section class="section" id="skills">
+            <h3 class="section-title">Skills</h3>
+            <ul>
+                <li>Web-development begginer: HTML, CSS, JavaScript</li>
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h3 class="section-title">Code</h3>
+            <pre><code>  
+                 const countChars=(text,letter) =>{
+                    let i=0;
+                    let count=0;
+                    while (i < text.length) {
+                        if (text[i] === letter.toLowerCase()) {
+                            count += 1;
+                        }
+                        i += 1;
+                    }
+                    return count;
+                };
+            </code>
+            </pre>
+        </section>
+        <section class="section" id="courses">
+            <h3 class="section-title">Courses</h3>
+            <ul>
+                <li>Course JS - Hexlet </li>
+                <li>Course Frontend developer - Coderslang</li>
+                <li>Course HTML - Code-basics.com</li>
+                <li>Course CSS - Code-basics.com</li>
+            </ul>
+        </section>
+        <section class="section" id="projects">
+            <h3 class="section-title">Projects</h3>
+            <p>Not yet</p>
+        </section>
+        <section class="section" id="education">
+            <h3 class="section-title">Education</h3>
+            <p> Belarusian State Technological University.
+                Department of Chemical Technology and Engineering</p>
+        </section>
+        <section class="section" id="languages">
+            <h3 class="section-title">Language</h3>
+            <ul>
+                <li>Russian language</li>
+                <li>Belarus language</li>
+                <li>English language(Pre-Intermediate)</li>
+            </ul>
+        </section>    
+    <div class="container"></div>
+</main>
+<footer class="footer">
+    <div class="footer-container">
+         <a class="my-github" href="https://github.com/JuliStrom">julistrom-my github</a>
+        <p>2024</p>
+        <a href="https://rs.school/js/" class="rss"></a>
+    </div>
+    </footer>
 </body>
 </html>
