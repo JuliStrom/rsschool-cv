@@ -112,7 +112,14 @@ main {
 }
 
 .profile {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: 270px minmax(0, 1fr);
+  align-items: center;
+  gap: 32px;
   padding: 48px 48px 30px;
+  border-top: 3px solid var(--accent);
+  border-bottom: 3px solid var(--accent);
   background: var(--white);
 }
 
@@ -120,7 +127,7 @@ main {
   display: block;
   width: 200px;
   height: 200px;
-  margin: 0 auto 34px;
+  margin: 0 auto;
   flex: 0 0 auto;
   border: 6px solid var(--accent);
   border-radius: 50%;
@@ -166,6 +173,7 @@ main {
   font-family: 'Space Grotesk', sans-serif;
   font-size: clamp(2.5rem, 5vw, 4.5rem);
   line-height: 1;
+  text-shadow: 2px 3px 0 rgb(46 139 87 / 18%);
 }
 
 .profile-summary {
@@ -412,6 +420,18 @@ footer {
   .profile,
   .content-section {
     padding: 28px 24px;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+  }
+
+  .profile .fotocv {
+    margin-bottom: 24px;
   }
 
   .name {
