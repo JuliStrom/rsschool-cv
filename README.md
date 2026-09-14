@@ -1,1 +1,1 @@
-https://github.com/JuliStrom/rsschool-cv/tree/gh-pages
+https://github.com/JuliStrom/rsschool-cv/cv
