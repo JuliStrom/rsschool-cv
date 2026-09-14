@@ -3,35 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My cv</title>
+    <title>Julia Strom | CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
         <nav class="nav">
-            <ul class="nav-list">
+            <a class="my-logo" href="#profile" aria-label="Go to profile">
+                <img src="assets/myLogo.png" alt="Julia Strom logo">
+            </a>
+            <ul class="nav-list" id="navigation-menu">
+                <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
                 <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-         <section class="section" id="profile">
-            <img src="assets/fotocv.jpg" alt="fotocv" class="fotocv">
-             <h1 class="name">Strom Julia</h1>
-        </section>
-        <section class="section" id="contacts">
-            <h2 class="section-title">Contacts</h2>
-            <ul>
-                <li>Minsk, Belarus</li>
-                <li>email: jstrom312@gmail.com</li>
-                <li>+375(29)172-76-**</li>
-                <li>Discord: Strom(@JuliStrom)</li>
-            </ul>
-        </section>
+    <main class="cv-layout">
+        <aside class="sidebar">
+            <img src="assets/fotocv.jpg" alt="Portrait of Julia Strom" class="fotocv">
+            <section class="sidebar-section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="contact-list">
+                    <li><a href="mailto:jstrom312@gmail.com">jstrom312@gmail.com</a></li>
+                    <li><a href="tel:+3752917276">+375 (29) 172-76-**</a></li>
+                    <li><a href="https://discord.com/users/strom1091" target="_blank" rel="noopener noreferrer">Discord: Strom (@JuliStrom)</a></li>
+                </ul>
+            </section>
+            <section class="sidebar-section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="tag-list">
+                    <li>HTML5</li><li>CSS</li><li>SCSS</li><li>JavaScript</li><li>TypeScript</li><li>React</li><li>Next.js</li><li>Redux Toolkit</li><li>RTK Query</li><li>React Hook Form</li><li>REST API</li><li>Git</li><li>GitHub</li><li>Material UI</li><li>Radix UI</li><li>Shadcn</li><li>Figma</li>
+                </ul>
+            </section>
+            <section class="sidebar-section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="plain-list">
+                    <li>English: A2-B1</li>
+                    <li>Russian: native language</li>
+                </ul>
+            </section>
+            <section class="sidebar-section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Belarusian State Technological University -- Automation Engineer</p>
+            </section>
+        </aside>
+        <div class="cv-content">
+            <section class="profile" id="profile">
+                <div class="profile-content">
+                    <p class="eyebrow">Frontend Developer</p>
+                    <h1 class="name">Julia Strom</h1>
+                    <p class="profile-summary">Frontend Developer with over 3 years of experience building modern SPA applications.</p>
+                </div>
+            </section>
+            <section class="content-section" id="about">
+                <h2 class="section-title">About myself</h2>
+                <p>Specializing in React, TypeScript, and Next.js. In my daily work, I actively leverage Redux Toolkit, RTK Query, and TanStack Query for efficient state management and data caching.</p>
+                <p>I build responsive, accessible, and maintainable interfaces, integrate complex business logic with REST APIs, and pay close attention to performance and UX/UI details.</p>
+                <p>I actively incorporate AI tools into my everyday development workflow to optimize routine tasks.</p>
+            </section>
+            <section class="content-section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <ul class="experience-list">
+                    <li>
+                        <article class="experience-item">
+                            <h3>TgLab - Telegram automation platform</h3>
+                            <p class="experience-meta">Full-stack Developer | 2026-Present</p>
+                            <p>Contribute to the development of a full-stack Telegram automation platform with Angular and NestJS. Implemented account import from tdata, Telegram integration through GramJS, HTTP/SOCKS5 proxy support, and background proxy checks.</p>
+                            <p class="experience-stack"><strong>Stack:</strong> Angular, NestJS, GramJS, PostgreSQL, Redis, Docker, Python, Jest, Playwright.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="experience-item">
+                            <h3>Career Platform - career development platform</h3>
+                            <p class="experience-meta">Frontend Developer | 2026</p>
+                            <p>Contributed to the development of a platform for finding vacancies, building career paths, and receiving personalized recommendations. Developed user screens, an administration panel, profile forms, vacancy filters, notifications, and analytics.</p>
+                            <p>Integrated the frontend with the backend API and adapted the interface for different devices.</p>
+                            <p class="experience-stack"><strong>Stack:</strong> React Native, Expo, TypeScript, NativeWind, React Hook Form, Zod, Axios, i18next, Node.js, Express, MongoDB, Mongoose.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="experience-item">
+                            <h3>Lumio.su - social network</h3>
+                            <p class="experience-meta">Lead Frontend Developer | 2025-2026</p>
+                            <p>Led the frontend development team and contributed to the development of a social platform. Responsible for the user interface, reusable components, API integration, authorization, user-generated content, and media file sharing functionality.</p>
+                            <p>Developed a reusable component library for the administration panel.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="experience-item">
+                            <h3>Tasks Manager - task management SPA</h3>
+                            <p class="experience-meta">Frontend Developer | 2024-2025</p>
+                            <p>Developed a task management application with CRUD operations and API integration. Implemented state management, task filtering and sorting, and loading and error states.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="experience-item">
+                            <h3>Shelter - animal shelter website</h3>
+                            <p class="experience-meta">Frontend Developer, Layout Developer | 2023-2024</p>
+                            <p>Created a responsive and cross-browser website from a Figma design. Implemented interactive interface elements, adapted the layout for different devices, and added basic user interaction logic.</p>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            <section class="content-section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="plain-list">
+                    <li>English courses</li>
+                    <li>JavaScript on Hexlet</li>
+                    <li>RS School: JavaScript / Front-end Course</li>
+                    <li>IT-incubator: Front-end Developer</li>
+                </ul>
+            </section>
+            <section class="content-section" id="code">
+                <h2 class="section-title">Sample code</h2>
+                <pre><code>function debounce(action, delay = 1000) {
+    let id;
+
+    return function (...args) {
+        clearTimeout(id);
+        id = setTimeout(() =&gt; {
+            action(...args);
+        }, delay);
+    };
+}</code></pre>
+            </section>
+        </div>
     </main>
     <footer>
         <div class="footer-container">
-        <p>2026</p>
+            <a class="github-link" href="https://github.com/JuliStrom" target="_blank" rel="noreferrer">GitHub: JuliStrom</a>
+            <p>2026</p>
+            <a class="rs-school-link" href="https://rs.school/courses/javascript-ru" target="_blank" rel="noreferrer">
+                <img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/fullstack-engineering/tasks/cv/assets/rs-school-logo.svg" alt="RS School course">
+            </a>
         </div>
     </footer>
 </body>
