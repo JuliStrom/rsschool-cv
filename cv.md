@@ -31,10 +31,11 @@ I actively incorporate AI tools into my everyday development workflow to optimiz
 - RS-School - JavaScript / Front-end Course
 - IT-incubator - Front-end Developer
 
-
 ### *Sample code:*
 
-https://github.com/JuliStrom/rsschool-cv/blob/gh-pages/cv.md
+function sortList(sortBy, list) {
+    return [...list].sort((a,b) => b[sortBy] - a[sortBy]);
+}
 ### *Language:*
 
 - English level A2-B1.
